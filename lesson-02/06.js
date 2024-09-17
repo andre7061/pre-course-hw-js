@@ -16,5 +16,5 @@ for (const key in passportWithAddress) {
 }
 
 clone.address.city = "Bobryisk";
-console.log(passportWithAddress.address.city);
-console.log(clone.address.city);
+console.log(passportWithAddress.address);
+console.log(clone.address);
