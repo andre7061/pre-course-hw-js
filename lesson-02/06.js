@@ -6,15 +6,15 @@ let passportWithAddress = {
     city: "LA",
   },
 };
-let clone = {};
+let clone2 = {};
 for (const key in passportWithAddress) {
   if (typeof passportWithAddress[key] !== "object") {
-    clone[key] = passportWithAddress[key];
+    clone2[key] = passportWithAddress[key];
   } else {
-    clone[key] = { ...passportWithAddress[key] };
+    clone2[key] = { ...passportWithAddress[key] };
   }
 }
 
-clone.address.city = "Bobryisk";
-console.log(passportWithAddress.address);
-console.log(clone.address);
+clone2.address.city = "Bobryisk";
+console.log(passportWithAddress.address.city);
+console.log(clone2.address.city);
