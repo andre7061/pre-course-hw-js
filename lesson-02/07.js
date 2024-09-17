@@ -6,11 +6,11 @@ let passportMarried = {
     city: "Bobryisk",
   },
 };
-let clone3 = {
+let passportMarried2 = {
   ...passportMarried,
   married: true,
   address: { ...passportMarried.address },
 };
 
 console.log(passportMarried);
-console.log(clone3);
+console.log(passportMarried2);
