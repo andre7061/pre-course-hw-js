@@ -3,5 +3,5 @@ const numbers = [
   [11, 20, 33, 40, 55],
   [111, 200, 333, 400, 555],
 ];
-const newArr = numbers.map((arr) => arr.filter((num) => num % 2 == 0));
-console.log(newArr);
+const newArr7 = numbers.map((arr) => arr.filter((num) => num % 2 === 0));
+console.log(newArr7);
