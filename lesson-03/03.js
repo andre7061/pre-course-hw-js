@@ -11,5 +11,5 @@ const fruits = [
   "персик",
 ];
 
-const newArr = [...fruits.slice(0, 1), ...fruits.slice(-2)];
+const newArr = fruits.slice(1, -2);
 console.log(newArr);
